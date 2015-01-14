@@ -1,0 +1,39 @@
+<div ng-repeat="item in list | filter:{'id': componentId} | limitTo:1">
+	<div class="container top-buffer">
+		<a href="#/list"><h3>&laquo;</h3></a>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">{{item.name}}</h3>
+			</div>
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-md-4">
+						<img ng-src="{{item.details.img_url}}" alt="">
+					</div>
+					<div class="col-md-8">
+						<p><strong>Omschrijving: </strong><br/>{{item.details.description}}</p><br/>
+						<table class="table table-bordered">
+							<thead>
+								<th>Prijs</th>
+								<th>Bouwvorm</th>
+								<th>Vermogen</th>
+								<th>Certificaat</th>
+								<th>Garantie</th>
+								<th>Koeler</th>
+							</thead>
+							<tbody>
+								<td>{{item.details.price}}</td>
+								<td>{{item.details.construction}}</td>
+								<td>{{item.details.power}}</td>
+								<td>{{item.details.certificate}}</td>
+								<td>{{item.details.warranty}}</td>
+								<td>{{item.details.cooler}}</td>
+							</tbody>
+						</table>
+						<ngcart-addtocart id="{{ item.id }}" name="{{ item.name }}" price="{{ item.details.price }}" data="item">Voeg toe aan winkelwagen!</ngcart-addtocart>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

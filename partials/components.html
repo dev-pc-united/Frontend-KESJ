@@ -1,0 +1,21 @@
+<div class="container top-buffer">
+	<div class="row component-grid">
+		<div class="col-md-12">
+			<div>
+				<div class="row text-center" ng-repeat="item in (components.length/3 | array)">
+					<div class="col-md-4" ng-repeat="item in components.slice(3*$index, 3*$index + 3)">
+						<a href="#/components/list/{{item.name}}">
+							<button type="button" class="btn btn-default btn-lg">
+								<span class="glyphicon glyphicon-th-large" aria-hidden="true"></span><br/>
+								<div class="component-name">
+									<span>{{item.name}}</span>
+								</div>
+								<img ng-src="img/components/{{item.type}}.png" class="component_thumb" width="150" height="150" />
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,51 @@
+<div class="container top-buffer">
+	<div class="row">
+		<div class="col-md-12" ng-repeat="item in selectables | filter:{'type': component}">
+			<a href="#/components/list/{{ item.name }}">
+				{{ item.name }}
+			</a>
+		</div>
+	</div>
+	<div class="row" > 
+		<a href="/kesj/components"><h3>&laquo; Terug naar overzicht</h3></a>
+		<div class="panel panel-default">
+			<!-- Default panel contents -->
+			<div class="panel-heading"><h3>{{title}}</h3></div>
+			<!-- Table -->
+			<table class="table table-hover">
+				<!--<thead> 
+					<th></th>
+					<th>Naam</th>
+					<th>Sub Categorie</th>
+					<th>Beschrijving</th>
+					<th>Prijs</th>
+				</thead>-->
+				<tbody>
+					<tr ng-repeat="item in list | startFrom:currentPage*pageSize | limitTo:pageSize"> 
+						<td class="col-md-2"><a ng-href="{{item[0].url}}" target = "_blank"><img ng-src="{{item[0].picurl}} err-src="http://google.com/favicon.ico" width="50" height="50" /></a></td>
+						<td class="col-md-2"><a ng-href="{{item[0].url}}" target = "_blank">{{item[0].name}}</a></td>
+						<td class="col-md-2"><a ng-href="{{item[0].url}}" target = "_blank">{{item[0].subcategory}}</a></td>
+						<td class="col-md-3"><a ng-href="{{item[0].url}}" target = "_blank">{{item[0].omschrijving | limitTo: 150}} {{item[0].omschrijving.length > 150 ? '...' : ''}}</a></td>
+						<td class="col-md-1"><strong>&euro; </strong>{{item[0].prijs | alwayDigits}}</td>
+						<td class="col-md-2"><ngcart-addtocart id="{{ item[0].id }}" name="{{ item[0].name }}" price="{{ item[0].prijs }}" data="item" onclick="toComponents()">Voeg toe aan vergelijking!</ngcart-addtocart></div>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<nav>
+		<ul class="pagination">
+			<li><a ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1"><span aria-hidden="true">&laquo;</span><span class="sr-only">Previous</span></a></li>
+			<li ng-repeat="a in range(numberOfPages()) track by $index">
+				<a ng-click="$parent.currentPage=$index">{{$index + 1}}</a>
+			</li>
+			<li><a ng-disabled="currentPage >= data.length/pageSize - 1" ng-click="currentPage=currentPage+1"><span aria-hidden="true">&raquo;</span><span class="sr-only">Next</span></a></li>
+		</ul>
+	</nav>
+</div>
+<div id="loader" style="display: none;">
+	<div class="loader-screen"></div>
+	<div class="spinner large"></div>
+</div>
+

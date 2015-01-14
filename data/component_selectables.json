@@ -1,0 +1,28 @@
+[
+	{
+		"id" : 1,
+		"type" : "DVD - Bluray",
+		"selectables" : 
+		[
+			{
+				"name" : "DVD"
+			}, 
+			{
+				"name" : "Bluray"
+			}
+		]
+	},
+		{
+		"id" : 2,
+		"type" : "sDVD - Bluray",
+		"selectables" : 
+		[
+			{
+				"name" : "DVD"
+			}, 
+			{
+				"name" : "Bluray"
+			}
+		]
+	}
+]

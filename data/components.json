@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "type": "motherboard",
+		"name": "Moederbord",
+		"description": "Tekst over moederbord"
+    },
+    {
+        "id": 2,
+        "type": "cpu",
+		"name": "Processor",
+		"description": "Tekst over processor"
+    },
+    {
+        "id": 3,
+        "type": "powersupply",
+		"name": "Voeding",
+		"description": "Tekst over voeding"
+    },
+    {
+        "id": 4,
+        "type": "case",
+		"name": "behuizing",
+		"description": "Tekst over behuizing"
+    },
+    {
+        "id": 5,
+        "type": "gpu",
+		"name": "Grafische kaart",
+		"description": "Tekst over video kaart"
+    },
+    {
+        "id": 6,
+        "type": "optic",
+		"name": "DVD - Bluray",
+		"description": "Tekst over optische schijf"
+    },
+    {
+        "id": 7,
+        "type": "ram",
+		"name": "Geheugen",
+		"description": "Tekst over geheugen"
+    },
+    {
+        "id": 8,
+        "type": "hdd",
+		"name": "Harde schijf",
+		"description": "Tekst over hdd"
+    }
+]

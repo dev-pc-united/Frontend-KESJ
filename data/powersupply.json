@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Aerocool Strike-X EN53754",
+		"price": "94.90",
+        "details": { 
+            "construction": "ATX",
+            "power": 800,
+            "certificate": "80 plus silver",
+            "cooler": "139 mm",
+            "description": "De Strike-X EN53754 van Aerocool is een ATX voeding en levert een vermogen van 800 Watt met een efficiëntie van 88%. Deze voeding heeft één 139mm Fan ingebouwd en is beveiligd tegen stroompieken (OCP), tegen overspanning (OVP), tegen kortsluiting (SCP) en tegen oververhitting (OTP). Verder beschikt hij onder andere over 5x 5,25 molex, 8x SATA en 4x PCIe 6+2 pins aansluitingen.",
+            "img_url": "http://www.alternate.nl/p/230x230/t/Aerocool_Strike_X_EN53754__800_Watt_voeding@@tn8rx1.png",
+            "warranty": "24 mnd",
+            "price": "94.90",
+			"type": "powersupply"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Antec Antec VP600P",
+		"price": "94.90",
+        "details": {
+            "construction": "ATX",
+            "power": 600,
+            "certificate": "",
+            "cooler": "120 mm",
+            "description": "De Antec VP600P van Antec is een ATX voeding en levert een vermogen van 600 Watt met een efficientie van 88%. Deze voeding heeft één 120mm Fan ingebouwd. Verder beschikt hij onder andere over 4x 5,25' molex, 5x SATA en 2x PCIe 6+2 pins aansluitingen.",
+            "img_url": "http://www.alternate.nl/p/230x230/t/Antec_Antec_VP600P__600_Watt_voeding@@tn6a14.png",
+			"warranty": "24 mnd",
+            "price": "64.90",
+			"type": "powersupply"
+        }
+    },
+    {
+        "id": 3,
+        "name": "be quiet! Straight Power 10 CM 500W",
+		"price": "94.90",
+        "details": {
+            "construction": "ATX",
+            "power": 500,
+            "certificate": "80 plus gold",
+            "cooler": "135 mm",
+            "description": "De Straight Power 10 CM 500W van be quiet! is een ATX voeding en levert een vermogen van 500 Watt met een efficiëntie van 93%. Deze voeding heeft één 135mm Fan ingebouwd en is beveiligd tegen stroompieken (OCP), tegen overspanning (OVP), tegen onderspanning (UVP), tegen overbelasting (OLP/OPP), tegen kortsluiting (SCP) en tegen oververhitting (OTP). Verder beschikt hij onder andere over 3x 5,25' molex, 9x SATA en 2x PCIe 6+2 pins aansluitingen.",
+            "img_url": "http://www.alternate.nl/p/230x230/t/be_quiet__Straight_Power_10_CM_500W__500_Watt_voeding@@tn5v2e00_3.png",
+            "warranty": "60 mnd",
+            "price": "99.90",
+			"type": "powersupply"
+        }
+    },
+    {
+        "id": 4,
+        "name": "XFX 1000W Black Edition",
+		"price": "94.90",
+        "details": {
+            "construction": "ATX",
+            "power": 1000,
+            "certificate": "80 plus platinum",
+            "cooler": "135 mm",
+            "description": "De 1000W Black Edition van XFX is een ATX voeding en levert een vermogen van 1000 Watt met een efficiëntie van 92%. Deze voeding heeft één 135mm Fan ingebouwd en is beveiligd tegen stroompieken (OCP), tegen overspanning (OVP), tegen onderspanning (UVP), tegen overbelasting (OLP/OPP), tegen kortsluiting (SCP) en tegen oververhitting (OTP). Verder beschikt hij onder andere over 8x 5,25' molex, 11x SATA en 6x PCIe 6+2 pins aansluitingen.",
+            "img_url": "http://www.alternate.nl/p/230x230/t/XFX_1000W_Black_Edition__1000_Watt_voeding@@tnavx3.png",
+            "warranty": "",
+            "price": "212.90",
+			"type": "powersupply"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Aerocool Strike-X EN53754",
+		"price": "94.90",
+        "details": {
+            "construction": "ATX",
+            "power": 1500,
+            "certificate": "80 plus silver",
+            "cooler": "135 mm",
+            "description": "De Strider ST1500 van SilverStone is een ATX voeding en levert een vermogen van 1500 Watt met een efficiëntie van 88%. Deze voeding heeft één 135mm Fan ingebouwd. Verder beschikt hij onder andere over 12x 5,25' molex, 12x SATA, 4x PCIe 6 pins en 4x PCIe 6+2 pins aansluitingen.",
+            "img_url": "http://www.alternate.nl/p/230x230/t/SilverStone_Strider_ST1500__1500_Watt_voeding@@tnai12.png",
+            "warranty": "",
+            "price": "94.90",
+			"type": "powersupply"
+        }
+    }
+]
